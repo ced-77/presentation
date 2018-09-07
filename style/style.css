@@ -1,0 +1,221 @@
+/*
+	Configuration générale
+*/
+
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		font-size: 62.5%;
+	}
+
+	body {
+		display: block; /* mise ne block du site pour un centrage du celui ci */
+		margin: auto; /* centrage du site sur la page */
+		font-size: 1.5rem;
+		/*background-color: white;*/
+	}
+
+	h1, h2, h3, h4 {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.8rem;
+	}
+
+	h2 {
+		text-decoration: underline;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	span {
+		font-size: 1.35rem;
+	}
+
+	h1 span {
+		display: block;
+	}
+
+	ul	{
+		list-style-type: none;
+	}
+
+	a {
+		text-decoration-line: none;
+		color: white;
+	}
+
+	a:hover	{
+		color:black;
+		background-color:white;
+		min-width: 320px;
+	}
+
+	p {
+		margin: 1rem;
+	}
+
+
+/*
+	Configuration pour un width 320px max
+*/
+
+	body {
+		max-width: 320px;
+	}
+
+	header {
+		display: inline-block;
+		min-width: 320px;
+		position: fixed;
+		
+		
+	}
+
+
+	main {
+		padding-top: 12rem;
+	}
+
+	article {
+		padding-bottom: 1rem;
+	}
+
+	/*
+		Fin du configuration du first mobile
+	 */
+
+/*
+	Configuration d effacement des block compta et radio
+*/
+
+	.comptabilite, .radio {
+		display: none;
+	}
+
+	/* Fin de configuration du block compta*/
+
+
+/*
+	Configuration de la nav
+*/
+
+ /*Fin de la configuration de la nav */
+
+/*
+	Configuration des couleurs 
+*/
+
+	body {
+		color: black;
+		background-color: white;
+	}
+
+	
+	header {
+		color: white;
+		background-color: black;
+	}
+
+	#Formations {
+		background-color: blue;
+		color: cyan;
+
+	}
+
+	#Formations h2 {
+		color: yellow;
+	}
+
+	#Formations h3 {
+		margin-top: 1rem;
+		color: white;
+	}
+
+	#Formations li {
+		padding-top: 1rem;
+	}
+
+	#artContacts {
+		background-color: orange;
+	}
+
+	
+
+	#artContacts h2 {
+		background-color: grey;
+		color: orange;
+	}
+
+	#artContacts h3 {
+		color: grey;
+	}
+
+	#artContacts a {
+		color: black;
+	}
+
+	#artContacts a:hover {
+		color: orange;
+		background-color: grey;
+	}
+
+
+	footer {
+		color: cyan;
+		background-color: blue;
+	}
+	
+	/* Fin de la config des Couleurs */
+
+
+.header .titreh1 {
+	display: none; /* effacement du block ntitre  */
+}
+
+
+
+.liste_langage li {
+	display: inline-block;
+	margin-right: .5rem;
+}
+
+
+#contacts p {
+	display: inline-block;
+	margin:	0rem;
+	padding: 1rem;
+	padding-left: .5rem;
+}
+
+#contacts h3 {
+	text-decoration: underline;
+	display: inline-block;
+	/*margin-right: .5rem;*/
+	margin-left: 1rem;
+}
+
+#contacts #adresse h3:first-child {
+	text-align: left;
+	display: block;
+}
+
+#adresse p {
+	padding-left: 3rem;
+}	
+
+#contacts #adresse {
+
+}
+
+
+footer p {
+	margin: 0;
+	padding: 1rem;
+}
+
