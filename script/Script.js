@@ -19,12 +19,34 @@ $(document).ready(function(){
 			//  Ouveture et fermeture du Menu Burger par l'icone de navigation
 				$('#BurgerBouton').on('click', function (event){
 						event.preventDefault();
-							/*
-								if 
-							 */
+							// change l'icon de menu soit burger soit croix
+								// Changement de l'icone du Menu burger
+									$('#BurgerBouton').toggleClass('fa-bars');  // Si la class est absente, injecte-la; si elle est présente, enlève-la
+									$('#BurgerBouton').toggleClass('fa-times'); // Si la class est absente, injecte-la; si elle est présente, enlève-la
 
-				});
-				// Fin de l'ouverture et fermeture du Menu Burger par l'icone
+								// Si le menu est fermé, il faut l'ouvrir et vice-versa
+									if(EtatBurgerMenu == 0){  // "Si BurgerMenu est fermé ...""
+
+										// faire apparaitre le menu par un display initial sur la balise NAV
+											$('nav').fadeIn();
+
+
+										// Changer la valeur de EtatBurgerMenu
+											EtatBurgerMenu = 1;  // "... BurgerMenu est ouvert"
+
+									} else{   // Sinon (si le BurgerMenu est ouvert) ...
+
+										// faire disparaitre le menu par un display none sur la balise NAV
+											$('nav').css('display','');
+
+										// Changer la valeur de EtatBurgerMenu
+											EtatBurgerMenu = 0;  // ... BurgerMenu est fermé
+									};
+
+							// fin du click sur le menu burger
+							});
+
+					}); // Fin de l'ouverture et fermeture du Menu Burger par l'icone
 
 			// Fermeture du Menu burger par click sur le lien de navigation
 				$('.BurgerOff').on('click', function(event){
@@ -46,9 +68,7 @@ $(document).ready(function(){
 
 								}; 
 								// fin de la condition de controle de la largeur de fenetre
-				});
-			
-				// Fin de la fermeture du Menu Burger
+				});// Fin de la fermeture du Menu Burger
 
 			// Fin du menu burger
 
