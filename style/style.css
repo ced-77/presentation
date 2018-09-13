@@ -105,6 +105,18 @@
 	Configuration de la nav
 */
 
+	nav {
+		display: none; /*  Effacement ou mise en disparition de la nav pour smartphone   */
+
+	}
+
+	.fa-bars, .fa-times {
+		display: initial; /* Mise en visible de l'icone du menu burger */
+		cursor : pointer; /* Mise du cureur en pointer (main) l'or du survol de la balise */ 
+	}
+
+
+
  /*Fin de la configuration de la nav */
 
 /*

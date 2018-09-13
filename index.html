@@ -27,30 +27,43 @@
 				<span>Développeur BACK</span>
 				<span>Débuggeur</span>
 			</h1>
+
+			<!-- Navigation du site -->
+
+				<!-- Affichage du menu burger -->
+					<span>
+						<i class="fa fa-bars" aria-hidden="true" id="BurgerBouton" ></i>
+					</span>
+
+				<!-- Fin d'affichage du menu burger -->
+
+				<!-- Menu de navigation générale -->
 			
-			<nav>
-				<ul>
-					<li>
-						<a href="#Accueil" >Accueil</a>
-					</li>
-					<li>
-						<a href="#Profil" >Profil</a>
-					</li>
-					<li>
-						<a href="#Competences" >Compétences</a>
-					</li>
-					<li>
-						<a href="#Projets" >Projets</a>
-					</li>
-					<li>
-						<a href="#Formations">Formations - Diplômes</a>
-					</li>
-					<li>
-						<a href="#Contacts" >Contacts</a>
-					</li>
-				</ul>
-				
-			</nav>
+					<nav>
+						<ul>
+							<li>
+								<a href="#Accueil" class="BurgerOff" >Accueil</a>
+							</li>
+							<li>
+								<a href="#Profil" class="BurgerOff" >Profil</a>
+							</li>
+							<li>
+								<a href="#Competences" class="BurgerOff" >Compétences</a>
+							</li>
+							<li>
+								<a href="#Projets" class="BurgerOff" >Projets</a>
+							</li>
+							<li>
+								<a href="#Formations" class="BurgerOff" >Formations - Diplômes</a>
+							</li>
+							<li>
+								<a href="#Contacts" class="BurgerOff" >Contacts</a>
+							</li>
+						</ul>
+						
+					</nav>
+				<!-- Fin du menu de navigation générale -->
+			<!-- Fin de la navigation du site -->
 
 		</header>
 
@@ -364,50 +377,63 @@
 			</article>
 
 			<article id="artContacts" >
-				<h2>Formulaire de contact</h2>
-				<section >
-					<p>
-						Ce formulaire est mis à votre disposition afin de pouvoir me joindre, que ce soit pour une simple question sur mon métier, mes capacitées ou mes connaissances. Je reste à votre disposition si vous désirez de plus amples informations sur moi ou si vous désirer un simple rendez-vous pour une meilleur entre vue. <span>A bientôt.</span>
-					
-					</p>
-				</section>
-				
-				<section >
-					<form>
-					
-					</form>
-				</section>
-				
-				<section id="contacts" >
-					<div id="adresse" >
-
-						<h3>Adresse :</h3>
+				<!-- Introduction du formulaire de contacte -->
+					<h2>Formulaire de contact</h2>
+					<section >
 						<p>
-							Chez Mme BAPTISTE<br />
-							19, impasse cité Dupont<br />
-							75011 Paris XI<sup>ème</sup>
+							Ce formulaire est mis à votre disposition afin de pouvoir me joindre, que ce soit pour une simple question sur mon métier, mes capacitées ou mes connaissances. Je reste à votre disposition si vous désirez de plus amples informations sur moi ou si vous désirer un simple rendez-vous pour une meilleur entre vue. <span>A bientôt.</span>
+						
 						</p>
-													
+					</section>
+				<!-- Fin de l'introduction du formulaire de contacte -->
+				<!-- Formulaire de contacte -->	
+					<section id="formulaire_contact">
+
+						<h3>Formulaire :</h3>
+						<form>
+							<!-- 
+								Dans le formulaire il doit y avoir :
+									- le nom de la personne
+									- le prénom de la personne
+									- choix : 
+										- Entreprise 
+										- Privée
+
+									- Si 
+							 -->
 							
-					</div>
-					<div>
-						<h3>G.S.M. :</h3>
-						<p>+33.6.85.43.55.93.</p>
-					</div>
-					<div>
-						<h3>E-mail :</h3>
-						<p>voir formulaire.</p>
-					</div>
-					<div>
-						<h3>Github :</h3>
-						<a href="https://github.com/ced-77" target="_blank" >Cédric RAY</a>
-					</div>	
+						</form>
 
-						 
+					</section>
+				<!-- Fin du formulaire de contacte -->
+				<!-- Contactes -->
 					
+					<section id="contacts" >
+						<div id="adresse" >
 
-					
-				</section>
+							<h3>Adresse :</h3>
+							<p>
+								Chez Mme BAPTISTE<br />
+								19, impasse cité Dupont<br />
+								75011 Paris XI<sup>ème</sup>
+							</p>
+														
+								
+						</div>
+						<div>
+							<h3>G.S.M. :</h3>
+							<p>+33.6.85.43.55.93.</p>
+						</div>
+						<div>
+							<h3>E-mail :</h3>
+							<p>voir formulaire.</p>
+						</div>
+						<div>
+							<h3>Github :</h3>
+							<a href="https://github.com/ced-77" target="_blank" >Cédric RAY</a>
+						</div>
+					</section>
+				<!-- Fin des contactes -->
 			</article>
 			
 		</main>
@@ -420,6 +446,6 @@
 			<!-- jQuery -->
 
 			<!-- mon script -->
-			<script type="text/javascript" src=""></script>
+			<script type="text/javascript" src="script/script.js"></script>
 	</body>
 </html>
