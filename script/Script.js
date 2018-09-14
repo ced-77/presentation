@@ -18,7 +18,9 @@ $(document).ready(function(){
 
 			//  Ouveture et fermeture du Menu Burger par l'icone de navigation
 				$('#BurgerBouton').on('click', function (event){
-						event.preventDefault();
+
+						console.log('je passe par ici...');
+						//event.preventDefault();
 							// change l'icon de menu soit burger soit croix
 								// Changement de l'icone du Menu burger
 									$('#BurgerBouton').toggleClass('fa-bars');  // Si la class est absente, injecte-la; si elle est présente, enlève-la
@@ -43,9 +45,7 @@ $(document).ready(function(){
 											EtatBurgerMenu = 0;  // ... BurgerMenu est fermé
 									};
 
-							// fin du click sur le menu burger
-							});
-
+							
 					}); // Fin de l'ouverture et fermeture du Menu Burger par l'icone
 
 			// Fermeture du Menu burger par click sur le lien de navigation
@@ -55,13 +55,14 @@ $(document).ready(function(){
 					// ou non la fonction
 						// Creation de la variable de controle
 							var controle_largeur_fenettre = window.innerWidth;
+							console.log('controle_largeur_fenettre : '+controle_largeur_fenettre);
 						// verification de la largeur
 							if (controle_largeur_fenettre < 1024 ) {
 						//event.preventDefault(); // Ne pas mettre cette fonction afin que le lien puisse fonctionner.
 							EtatBurgerMenu = 0; // On renseigne l'etat comme fermé
 							// Changement de l'icone du Menu Burger
-								$('BurgerBouton').toggleClass('fa-bars');
-								$('BurgerBouton').toggleClass('fa-times');
+								$('#BurgerBouton').toggleClass('fa-bars');
+								$('#BurgerBouton').toggleClass('fa-times');
 								// Fin du changement de l'icone du menu
 								
 							$('nav').css('display',''); // On ferme le menu
@@ -76,4 +77,4 @@ $(document).ready(function(){
 
 
 // Fin de la programmation javaScript // jQuery 
-};
+});
