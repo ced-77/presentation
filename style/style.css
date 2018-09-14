@@ -79,11 +79,12 @@
 
 
 	main {
-		padding-top: 12rem;
+		padding-top: 2rem;
 	}
 
 	article {
 		padding-bottom: 1rem;
+		padding-top   : 1rem;
 	}
 
 	/*
