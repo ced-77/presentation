@@ -4,7 +4,7 @@
 
 
 	* {
-		margin: 0;
+		margin : 0;
 		padding: 0;
 	}
 
@@ -13,9 +13,9 @@
 	}
 
 	body {
-		display: block; /* mise ne block du site pour un centrage du celui ci */
-		margin: auto; /* centrage du site sur la page */
-		font-size: 1.5rem;
+		display           : block; /* mise ne block du site pour un centrage du celui ci */
+		margin            : auto; /* centrage du site sur la page */
+		font-size         : 1.5rem;
 		/*background-color: white;*/
 	}
 
@@ -29,8 +29,8 @@
 
 	h2 {
 		text-decoration: underline;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		padding-top    : 1rem;
+		padding-bottom : 1rem;
 	}
 
 	span {
@@ -47,13 +47,13 @@
 
 	a {
 		text-decoration-line: none;
-		color: white;
+		color               : white;
 	}
 
 	a:hover	{
-		color:black;
+		color           :black;
 		background-color:white;
-		min-width: 320px;
+		min-width       : 320px;
 	}
 
 	p {
@@ -70,9 +70,9 @@
 	}
 
 	header {
-		display: inline-block;
+		display  : inline-block;
 		min-width: 320px;
-		position: fixed;
+		position : fixed;
 		
 		
 	}
@@ -154,26 +154,26 @@
 		padding-top: 1rem;
 	}
 
-	#artContacts {
+	#Contacts {
 		background-color: orange;
 	}
 
 	
 
-	#artContacts h2 {
+	#Contacts h2 {
 		background-color: grey;
 		color: orange;
 	}
 
-	#artContacts h3 {
+	#Contacts h3 {
 		color: grey;
 	}
 
-	#artContacts a {
+	#Contacts a {
 		color: black;
 	}
 
-	#artContacts a:hover {
+	#Contacts a:hover {
 		color: orange;
 		background-color: grey;
 	}
