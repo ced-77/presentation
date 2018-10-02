@@ -53,11 +53,18 @@ $(document).ready(function(){
 
 					// Vérification de la largeur de la fenettre pour activer 
 					// ou non la fonction
+					// 
+					// Actuellement je le mets à 4000px car le site est fait pour 
+					// une application mobile. 
+					// 
+					// par la suite il sera adapté à la largeur de page donc la 
+					// valeur sera revue à la baisse.
+					// 
 						// Creation de la variable de controle
 							var controle_largeur_fenettre = window.innerWidth;
 							console.log('controle_largeur_fenettre : '+controle_largeur_fenettre);
 						// verification de la largeur
-							if (controle_largeur_fenettre < 1024 ) {
+							if (controle_largeur_fenettre < 4000 ) {
 						//event.preventDefault(); // Ne pas mettre cette fonction afin que le lien puisse fonctionner.
 							EtatBurgerMenu = 0; // On renseigne l'etat comme fermé
 							// Changement de l'icone du Menu Burger
