@@ -388,8 +388,6 @@
 				<!-- Fin de l'introduction du formulaire de contacte -->
 				<!-- Formulaire de contacte -->	
 					<section id="formulaire_contact">
-
-						<h3>Formulaire :</h3>
 						<form>
 							<!-- 
 								Dans le formulaire il doit y avoir :
@@ -401,7 +399,58 @@
 
 									- Si 
 							 -->
+							<h3>Formulaire :</h3>
+							<section id="presentation" >
+								<h4>Présentation</h4>
+								<!-- Civilité -->
+									<label for="civilite" >
+										Civilité : 
+									</label>
+									<select id="civilite" name="cilivilite" >
+										<option value="2" >Mme</option>
+										<option value="3" >Mlle</option>
+										<option value="1" SELECTED>M</option>
+									</select>
+								<!-- Nom -->
+									<label for="nom" >
+										Votre Nom* :
+									</label>
+									<input type="text" name="nom" id="nom" placeholder="Entre 3 et 50 caractères." />
+								<!-- Prénoms -->
+									<label>
+										Vos prénoms*<sup>1</sup> :
+									</label>
+									<input type="text" name="prenoms" id="prenoms" placeholder="Entre 3 et 50 caractères." />
+
+								<!-- E-mail -->
+									<label>
+										Votre E-mail* :
+									</label>
+									<input type="email" name="email" placeholder="Format E-mail, courriel..." />
+								<!-- Téléphone  -->
+									<label>
+										Votre Téléphone ou GSM* :
+									</label>
+									<input type="text" name="telephone" id="telephone" placeholder="Format : 0123456789" />
+							</section>
+							<section id="dmande_offre" >
+								<h4>Votre demande ou offre</h4>
+								<!-- Offre d'emploi ou demande de renseignement -->
+								<label>
+									Votre : 
+										<p>- demande de renseignement,</p>
+										<p>- proposition d'emploi,</p>
+										<p>- suggestion d'idée(s) :</p>
+								</label>
+									<option>
+										
+									</option>
+
+
+								
+							</section>
 							
+							<p class="obligatoires" >(*) Champs obligatoires - (1) séparé par des virgules.</p>
 						</form>
 
 					</section>

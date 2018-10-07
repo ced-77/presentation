@@ -61,6 +61,9 @@
 		margin: 1rem;
 	}
 
+	.obligatoires {
+		color: red; /* Mise en rouge les information pour dire que c'est obligatoire */
+	}
 
 /*
 	Configuration pour un width 320px max
