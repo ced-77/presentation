@@ -433,18 +433,40 @@
 									</label>
 									<input type="text" name="telephone" id="telephone" placeholder="Format : 0123456789" />
 							</section>
-							<section id="dmande_offre" >
+							<section id="demande_offre_propo" >
 								<h4>Votre demande ou offre</h4>
 								<!-- Offre d'emploi ou demande de renseignement -->
-								<label>
-									Votre : 
-										<p>- demande de renseignement,</p>
-										<p>- proposition d'emploi,</p>
-										<p>- suggestion d'idée(s) :</p>
-								</label>
-									<option>
-										
-									</option>
+									<!-- <label>
+										Votre : 
+											<p>- demande de renseignement,</p>
+											<p>- proposition d'emploi,</p>
+											<p>- suggestion d'idée(s) :</p>
+									</label> -->
+									<!-- Choix du contacte -->
+										<select id="choix_contacte" name="choix_contacte" >
+											<option value="0" SELECTED >
+												Demande de renseignement.
+											</option>
+											<option value="1" >
+												Proposition ou offre d'emploi.
+											</option>
+											<option value="2" >
+												Suggestion d'idée.
+											</option>
+											<option value="3" >
+												Autre.
+											</option>
+										</select>
+
+									<!-- Message de eescription ou contenu du contacte -->
+										<label>
+											Votre message :
+										</label>
+										<textarea name="message" id="message" > 
+											
+										</textarea>
+
+									
 
 
 								

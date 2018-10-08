@@ -129,19 +129,19 @@
 */
 
 	body {
-		color: black;
+		color           : black;
 		background-color: white;
 	}
 
 	
 	header {
-		color: white;
+		color           : white;
 		background-color: black;
 	}
 
 	#Formations {
 		background-color: blue;
-		color: cyan;
+		color           : cyan;
 
 	}
 
@@ -151,7 +151,7 @@
 
 	#Formations h3 {
 		margin-top: 1rem;
-		color: white;
+		color     : white;
 	}
 
 	#Formations li {
@@ -166,7 +166,7 @@
 
 	#Contacts h2 {
 		background-color: grey;
-		color: orange;
+		color           : orange;
 	}
 
 	#Contacts h3 {
@@ -178,13 +178,13 @@
 	}
 
 	#Contacts a:hover {
-		color: orange;
+		color           : orange;
 		background-color: grey;
 	}
 
 
 	footer {
-		color: cyan;
+		color           : cyan;
 		background-color: blue;
 	}
 	
@@ -202,37 +202,45 @@
 	margin-right: .5rem;
 }
 
+/*
+	Configuration du formulaire de contact ainsi que les moyens de contacte
+*/
 
-#contacts p {
-	display: inline-block;
-	margin:	0rem;
-	padding: 1rem;
-	padding-left: .5rem;
-}
+	#contacts p {
+		display: inline-block;
+		margin:	0rem;
+		padding: 1rem;
+		padding-left: .5rem;
+	}
 
-#contacts h3 {
-	text-decoration: underline;
-	display: inline-block;
-	/*margin-right: .5rem;*/
-	margin-left: 1rem;
-}
+	#contacts h3, #formulaire_contact h3 {
+		text-decoration: underline;
+		display: inline-block;
+		/*margin-right: .5rem;*/
+		margin-left: 1rem;
+	}
 
-#contacts #adresse h3:first-child {
-	text-align: left;
-	display: block;
-}
+	#contacts #adresse h3:first-child {
+		text-align: left;
+		display: block;
+	}
 
-#adresse p {
-	padding-left: 3rem;
-}	
+	#adresse p {
+		padding-left: 3rem;
+	}	
 
-#contacts #adresse {
+	#contacts #adresse {
 
-}
+	}
+	/* Fin de la configuration du forumlaire */
 
+/*
+	Configuration du pied de page
+*/
+	footer p {
+		margin: 0;
+		padding: 1rem;
+	}
 
-footer p {
-	margin: 0;
-	padding: 1rem;
-}
+	/* Fin du pied de page */
 
