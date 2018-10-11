@@ -202,27 +202,54 @@
 	margin-right: .5rem;
 }
 
+
+/*
+	Configuration des Formations
+*/
+
+	.formation_date {
+		margin-right: 0rem; 
+	}
+
+	.formation_diplome_optenu {
+		margin-left: 0rem;
+	}
+
+	.formation_date, .formation_diplome_optenu {
+		display: inline-block; /* Mise en forme des block pour qu'ils soient sur la même ligne */
+
+	}
+
+	.formation_diplome_optenu span {
+		font-size  : 2rem; /* defintion de la taille de caractere */
+		font-weight: bold; /* mise en gras  */
+		color      : red; /* mise en couleur de l'obtention du diplome */
+	}
+
+
+	/* Fin de la configuration des formations */
+
 /*
 	Configuration du formulaire de contact ainsi que les moyens de contacte
 */
 
 	#contacts p {
-		display: inline-block;
-		margin:	0rem;
-		padding: 1rem;
+		display     : inline-block;
+		margin      :	0rem;
+		padding     : 1rem;
 		padding-left: .5rem;
 	}
 
 	#contacts h3, #formulaire_contact h3 {
 		text-decoration: underline;
-		display: inline-block;
-		/*margin-right: .5rem;*/
-		margin-left: 1rem;
+		display        : inline-block;
+		/*margin-right : .5rem;*/
+		margin-left    : 1rem;
 	}
 
 	#contacts #adresse h3:first-child {
 		text-align: left;
-		display: block;
+		display   : block;
 	}
 
 	#adresse p {
@@ -238,7 +265,7 @@
 	Configuration du pied de page
 */
 	footer p {
-		margin: 0;
+		margin : 0;
 		padding: 1rem;
 	}
 
